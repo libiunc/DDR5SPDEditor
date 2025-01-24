@@ -14,6 +14,12 @@ Only for regular, non buffered/non ECC DDR5 UDIMMS/SODIMMS.
 3. Save your modified SPD.
 4. Write the modified SPD using SPD-Reader-Writer if it reports a valid checksum (AT YOUR OWN RISK).
 
+# 使用方法:
+1. 读取出你内存条的spd二进制文件
+2. 使用这个软件打开并修改 **先备份总是没错的**
+3. 保存你的修改
+4. 写回去,注意校验
+ 
 # Features
 XMP 3.0
 - Disable/Enable XMP header
